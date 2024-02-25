@@ -1,0 +1,6 @@
+@NewClassroom_HostAddress = http://localhost:5102
+
+GET {{NewClassroom_HostAddress}}/api/
+Accept: application/json
+
+###
