@@ -23,6 +23,7 @@ namespace NewClassroom.Controllers
         /// <param name="randomUserData">A RandomUserResults object</param>
         /// <returns>Ok action if successful</returns>
         [HttpPut]
+        [HttpPost]
         public IActionResult Put(RandomUserResults randomUserData)
         {
             if (randomUserData.Results == null || !randomUserData.Results.Any())
